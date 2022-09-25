@@ -14,5 +14,4 @@ consign()
     .then('src/controllers')
 .into(app);
 
-
 module.exports = app;
