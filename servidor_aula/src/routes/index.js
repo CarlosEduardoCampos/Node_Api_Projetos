@@ -1,9 +1,7 @@
-import{Router} from 'express';
+module.exports = function (app) {
 
-const routes = new Router();
-
-routes.get('/',(res,req) => {
-    res.status(200).json({ok:'conected'})
-})
-
-export default routes;
+    /* Rota para pagina index ou home */
+    app.get('/',(req,res) => {
+        res.status(200).json({ok:'conected'})
+    })
+}
