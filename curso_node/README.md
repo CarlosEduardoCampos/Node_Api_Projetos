@@ -8,9 +8,9 @@
 
   Cria um CRUD em node.js que se conecta ao MongoDB banco de dados não relaional.
   
-  - [] Iniciar o projeto.
-  - [] Criar Biblioteca de Rotas
-  - [] Finalizar o projeto
+  - [ ] Iniciar o projeto.
+  - [ ] Criar Biblioteca de Rotas
+  - [ ] Finalizar o projeto
   
 * **Biblioteca de Rotas:**
 
