@@ -10,6 +10,9 @@ $ npm install nodemon --save-dev
     reinicia automaticamenticamente o servidor apresentando as modificações em
     tempo real.
 
+$ npm install express 
+    Instala framework de desenvolvimento.
+
 $ npm install
     Instala todas as dependecias listadas no arquivo package.json.
 
