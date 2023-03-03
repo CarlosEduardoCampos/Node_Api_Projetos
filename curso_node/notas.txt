@@ -13,6 +13,13 @@ $ npm install nodemon --save-dev
 $ npm install express 
     Instala framework de desenvolvimento.
 
+$ npm install mongoose
+    Biblioteca de comunicação e manipulação do baco MongoDB.
+
+$ npm install dotenv
+    Biblioteca para construção de variaveis de ambiente, permite
+    que as variaveis criadas no .env sejam usados no codigo.
+
 $ npm install
     Instala todas as dependecias listadas no arquivo package.json.
 

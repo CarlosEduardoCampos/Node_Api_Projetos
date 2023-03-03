@@ -2,14 +2,14 @@
 
 * **Referecia:**
 
-  :link:https://www.youtube.com/watch?v=IOfDoyP1Aq0
+:link:https://www.youtube.com/watch?v=IOfDoyP1Aq0
 
 * **Objetivo:**
 
   Cria um CRUD em node.js que se conecta ao MongoDB banco de dados não relaional.
   
-  - [ ] Iniciar o projeto.
-  - [ ] Criar Biblioteca de Rotas
+  - [X] Iniciar o projeto.
+  - [X] Criar Biblioteca de Rotas
   - [ ] Finalizar o projeto
   
 * **Biblioteca de Rotas:**

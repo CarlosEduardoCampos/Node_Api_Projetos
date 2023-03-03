@@ -1,8 +1,7 @@
-// require("./modules/path");
-// require("./modules/fs");
-// require("./modules/hhtp");
-require("./modules/express")
+const dotenv = require('dotenv');
+dotenv.config();
 
-const {Person} = require("./person");
+const connectToDataBase = require('./src/database/connect');
+connectToDataBase();
 
-const person = new Person("Felipe");
+require('./src/routes/express');
