@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 20px;
+        }
+
+        form input {
+            padding: 5px;
+        }
+
+        form button {
+            border: solid 0.5px rgb(0, 0, 0);
+            background-color: rgba(65,184,131,1);
+            color: #fff;
+            margin: 30px 0 0 0;
+            height: 60px;
+            font-size: 1.3em;
+            font-weight: 900;
+            transition: 1s;
+        }
+
+        form button:hover {
+            transform: scale(1.05);
+            background-color: rgba(0,212,255,1);
+        }
+    </style>
+</head>
+<body>
+    <%- include('./partials/navbarForm.ejs') %>
+
+    <main class="content">
+        <form action="http://localhost:8080/users/<%= user._id %>" method="post" >
+            <label for="firstName"> Nome </label>
+            <input type="text" name="firstName" id="firstName" value="<%= user.firstName %>">
+
+            <label for="lastName"> Sobrenome </label>
+            <input type="text" name="lastName" id="lastName" value="<%= user.lastName %>">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" value="<%= user.email %>">
+
+            <button> Salvar</button>
+        </form>
+    </main>
+</body>
+</html>

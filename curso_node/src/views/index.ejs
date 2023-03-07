@@ -7,9 +7,12 @@
     <%- include('./partials/navbar.ejs') %>
     
     <ul class="content">
+        <li>
+            <a href="http://localhost:8080/user" style="color: black; font-size: 2em;"><i class='fas fa-user-plus'></i></a>
+        </li>
+        <hr>
         <% if (users.length > 0) { %>
             <% users.forEach(user => { %>
-                <hr>
                 <li class="item">
                     <div>
                         <h3 class="title">
@@ -18,15 +21,21 @@
         
                         <p><%= user.email %></p>
                     </div>
-                    <div>
-                        <button>
-                            <i class='far fa-edit'></i>
-                        </button>
-                        <button>
-                            <i class='fas fa-trash'></i>
-                        </button>
+                    <div class="btns">
+                        <form action="http://localhost:8080/user/editar/<%= user._id %>" method="get">
+                            <button>
+                                <i class='far fa-edit'></i>
+                            </button>
+                        </form>
+
+                        <form action="http://localhost:8080/users/delete/<%= user._id %>" method="delete">
+                            <button>
+                                <i class='fas fa-trash'></i>
+                            </button>
+                        </form>
                     </div>
-                </li> 
+                </li>
+                <hr>
             <% }); %>
         <% } else { %>
             <p> NÃO HÁ USUÁRIOS PARA EXIBIR ... </p>
