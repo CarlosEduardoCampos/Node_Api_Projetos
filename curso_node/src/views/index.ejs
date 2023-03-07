@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('./partials/head.ejs') %>
+</head>
+<body>
+    <%- include('./partials/navbar.ejs') %>
+    
+    <ul class="content">
+        <% if (users.length > 0) { %>
+            <% users.forEach(user => { %>
+                <hr>
+                <li class="item">
+                    <div>
+                        <h3 class="title">
+                            <%= user.firstName + " " + user.lastName %>
+                        </h3>
+        
+                        <p><%= user.email %></p>
+                    </div>
+                    <div>
+                        <button>
+                            <i class='far fa-edit'></i>
+                        </button>
+                        <button>
+                            <i class='fas fa-trash'></i>
+                        </button>
+                    </div>
+                </li> 
+            <% }); %>
+        <% } else { %>
+            <p> NÃO HÁ USUÁRIOS PARA EXIBIR ... </p>
+        <% } %>
+    </ul>
+    
+</body>
+</html>

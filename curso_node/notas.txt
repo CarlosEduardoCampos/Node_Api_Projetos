@@ -23,6 +23,9 @@ $ npm install dotenv
 $ npm install
     Instala todas as dependecias listadas no arquivo package.json.
 
+$ npm install ejs
+    Instala biblioteca que permite inserir js no html.
+
 $ npm start
     $ nodemon index.js
         Inicia o sevidor utilizando a biblioteca nodemon.

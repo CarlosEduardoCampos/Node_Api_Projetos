@@ -12,10 +12,13 @@ app.use((req, res, next) =>
     next();
 });
 
-app.get('/home',(req, res) =>
+app.set('view engine', 'ejs');
+app.set('views', 'src/views');
+
+app.get('/views/users', async (req, res) =>
 {
-    res.contentType('application/html');
-    res.status(200).send('<h1> hello word</h1>');
+    const users = await UserModel.find({});
+    res.render('index', {users});
 });
 
 // Busca um usuario especifico no banco pelo id
@@ -87,4 +90,4 @@ app.delete('/users/:id', async (req, res) =>
     }
 });
 
-app.listen(port,() => console.log(`Rota Express http://localhost:${port}/home`));
+app.listen(port,() => console.log(`Rota Express http://localhost:${port}/views/users`));
