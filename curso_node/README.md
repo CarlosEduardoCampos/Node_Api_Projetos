@@ -11,4 +11,4 @@
   
   - [X] Iniciar o projeto.
   - [X] Criar Rotas
-  - [ ] Finalizar o projeto
+  - [X] Finalizar o projeto
