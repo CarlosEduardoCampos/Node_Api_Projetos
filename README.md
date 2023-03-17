@@ -1,3 +1,3 @@
 # Crud_nodeJS
-Código gerado durante o estudo de como cria um CRUD com Node.js.
+Código gerado durante o estudos de Node.js.
 
