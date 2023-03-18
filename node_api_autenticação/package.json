@@ -1,0 +1,31 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Autenticação com Node.js e MongoDB com JWT - Login e Registro com Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosEduardoCampos/Node_Api_Projetos.git"
+  },
+  "author": "caducamrodrigues@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosEduardoCampos/Node_Api_Projetos/issues"
+  },
+  "homepage": "https://github.com/CarlosEduardoCampos/Node_Api_Projetos#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
