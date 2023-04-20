@@ -1,0 +1,43 @@
+$ npm init
+    Inicia o projeto criando o arquivo package.json onde seram armazenados
+    todas os nomes de dependecias e configurações do projeto.
+
+$ node index.js
+    Inicia o servidor apartir do arquivo indicado.
+
+$ npm install nodemon --save-dev
+    Instala uma biblioteca como dependecia de desenvolvimento, essa biblioteca
+    reinicia automaticamenticamente o servidor apresentando as modificações em
+    tempo real.
+
+$ npm install express 
+    Instala framework de desenvolvimento.
+
+$ npm install mongoose
+    Biblioteca de comunicação e manipulação do baco MongoDB.
+
+$ npm install dotenv
+    Biblioteca para construção de variaveis de ambiente, permite
+    que as variaveis criadas no .env sejam usados no codigo.
+
+$ npm install
+    Instala todas as dependecias listadas no arquivo package.json.
+
+$ npm install ejs
+    Instala biblioteca que permite inserir js no html.
+
+$ npm start
+    $ nodemon index.js
+        Inicia o sevidor utilizando a biblioteca nodemon.
+
+    inicia o programa chamando um script:
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    }
+
+CTRL + SHIFT + A 
+    Atalho para comentar blocos de codigo;
+
+CTRL + SHIFT + L 
+    Coloca o cursor no fim de todas as ocorrencias;
