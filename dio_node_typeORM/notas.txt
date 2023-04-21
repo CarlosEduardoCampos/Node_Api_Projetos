@@ -1,0 +1,45 @@
+# ORM
+
+- ORM (Object Relational Mapper) é uma técnica de mapeament
+  de objetos relacional que permite fazer uma relação do objeto
+  com os dados que os mesmos representam.
+- Exemplos: Sequelize, Prisma, Telerik.
+
+### TypeORM
+
+- Um dos ORMs mais populares
+- Documentação simples
+- Fácil implementação
+- Compativel com vários bancos de dados(MySQL, MongoDB,
+  Postgress, SQLite, etc);
+
+### Criando a API Node, TS, TypeORM
+
+$~ npm init --y
+    Cria um arquivo json com a estrutua basica do Software.(inicia o projeto)
+
+$~ npm i typescript -D
+    Instala pacote de desnvolvimento para typescript como dependicia de desemvolvimento.
+
+$~ npx tsc --init
+    Inicializa o typescript no projeto.(Permite desenvolver em Typescript)
+
+$~ npm i ts-node-dev -D 
+    Intala um leito de Typescript como depemdecia de desenvolvimento.
+
+CTRL + F => Realisa uma busca por texto no arquivo. 
+
+- Modifica no arquivo 'tsconfig'  o 'target' para a versão do JS nessesaria ex: 'es5', 'es6';
+- Modifica no arquivo 'tsconfig'  o 'strict' para false;
+- Cria no arquivo 'package.jon' um novo script -> "dev": "ts-node-dev index.ts".
+
+$~ npm run dev index.ts
+    Inicia o servidor Node a partir do codigo TS.
+
+### Criando as primeiras Rotas
+
+$~ npm i express
+    Instala framework para desenvolvimento.
+
+$~ npm i @types/express -D
+    Instala versão typescript do framework
