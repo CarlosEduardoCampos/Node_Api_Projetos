@@ -43,3 +43,17 @@ $~ npm i express
 
 $~ npm i @types/express -D
     Instala versão typescript do framework
+
+//>>> Api RestFull:
+//  Rota  //    Tipo    //  http  //   Função
+// '/new' // C - Create // PUT    // Criar Usuario
+// '/'    // R - Read   // GET    // Selecionar Usuario
+// 'up'   // U - Update // PATCH  // Editar Usuario
+// 'del'  // D - Delete // DELETE // Deletar Usuario
+
+$~ npm i typeorm reflect-metadata
+    Instala o biblioteca de desenvolvimento do typeorm.
+
+$~ npm i sqlite 
+    Instala pacote de desenvolvimento do banco de dados SQLite.
+
