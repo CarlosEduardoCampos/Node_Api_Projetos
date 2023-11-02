@@ -35,4 +35,37 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
 
 # Biblioteca de roteamento de requisições do React:
 
-$~ npm install react-router-dom
+    $~ npm install react-router-dom
+
+<< -------------------------------------------------------------------------------------------------- >>
+
+# Biblioteca de componentes do React:
+
+    $~ npm install @mui/material @emotion/react @emotion/styled
+
+<< -------------------------------------------------------------------------------------------------- >>
+
+# Correção de atualização:
+
+    -> Codigo legado:
+
+        React.Fc = ({children}) => {
+
+        }
+    
+    -> Codigo atual:
+
+        export const AppThemePRovider: React.Fc<{ children: React.ReactNode }> = ({children}) => {
+
+        }
+
+    // ou //
+
+        interface IAppThemeProviderProps{
+            children: React.ReactNode
+        }
+
+        export const AppThemePRovider: React.Fc<IAppThemeProviderProps> = ({children}) => {
+
+        }
+    
