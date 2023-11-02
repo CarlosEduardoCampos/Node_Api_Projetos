@@ -1,3 +1,5 @@
+ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=2
+
 << -------------------------------------------------------------------------------------------------- >>
 
 - Iniciando um novo projeto react:
