@@ -1,0 +1,31 @@
+<< -------------------------------------------------------------------------------------------------- >>
+
+- Iniciando um novo projeto react:
+
+- Curso React Material UI 5 Typescript
+
+- Link : https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=2
+
+
+<< -------------------------------------------------------------------------------------------------- >>
+
+# Baixando primeiras dependencias do projeto(React e Typescript):
+
+    $~ npx create-react-app <<nome do app>> --template typescript
+
+# Executa o servidor de desenvolvimento:
+
+    $~ npm start 
+
+# Prepara o codigo para o ambiente de produção:
+
+    $~ npm rum build
+
+# Executa scripts de test
+
+    $~ npm test
+
+# Remove esta ferramenta e copia dependências de construção, arquivos de configuração e scripts no diretório do aplicativo. Se você fizer isso, você não pode voltar atrás!
+
+    $~ npm eject
+
