@@ -31,3 +31,8 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
 
     $~ npm eject
 
+<< -------------------------------------------------------------------------------------------------- >>
+
+# Biblioteca de roteamento de requisições do React:
+
+$~ npm install react-router-dom
