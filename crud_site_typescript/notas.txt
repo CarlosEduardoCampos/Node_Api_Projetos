@@ -55,7 +55,7 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
     
     -> Codigo atual:
 
-        export const AppThemePRovider: React.Fc<{ children: React.ReactNode }> = ({children}) => {
+        export const AppThemePRovider: React.FC<{ children: React.ReactNode }> = ({children}) => {
 
         }
 
@@ -65,7 +65,7 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
             children: React.ReactNode
         }
 
-        export const AppThemePRovider: React.Fc<IAppThemeProviderProps> = ({children}) => {
+        export const AppThemePRovider: React.FC<IAppThemeProviderProps> = ({children}) => {
 
         }
     
