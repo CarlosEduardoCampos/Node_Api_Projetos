@@ -11,7 +11,7 @@ const ThemeContext = createContext({} as IThemeContextData);
 
 export const useAppThemeContext = () => {
     return useContext(ThemeContext);
-} 
+};
 
 export const AppThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     // Variavel do estilo de tema aplicado atualmente:
@@ -19,7 +19,7 @@ export const AppThemeProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
     // Mudando o estilo de tema:
     const toggleTheme = useCallback(()=>{
-        setThemeName(oldThemeName => oldThemeName === 'light' ? 'dark' : 'light')
+        setThemeName(oldThemeName => oldThemeName === 'light' ? 'dark' : 'light');
     }, []);
 
     const theme = useMemo(() => {
@@ -36,7 +36,4 @@ export const AppThemeProvider: React.FC<{ children: React.ReactNode }> = ({ chil
             </ThemeProvider>
         </ThemeContext.Provider>
     );
-}
-
-
-
+};

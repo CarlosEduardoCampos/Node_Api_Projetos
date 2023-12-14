@@ -8,6 +8,8 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
 
 - Link : https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=2
 
+- Documentação do Material UI
+- Link : https://mui.com/
 
 << -------------------------------------------------------------------------------------------------- >>
 
@@ -43,6 +45,12 @@ ultima aula: https://www.youtube.com/watch?v=L5nJhLkvBxU&list=PL29TaWXah3iaqOejI
 
     $~ npm install @mui/material @emotion/react @emotion/styled
 
+<< -------------------------------------------------------------------------------------------------- >>
+
+# Biblioteca para padronização decodigo:
+
+    $~ npx eslint --init
+    
 << -------------------------------------------------------------------------------------------------- >>
 
 # Correção de atualização:
